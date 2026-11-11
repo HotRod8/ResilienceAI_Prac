@@ -1,0 +1,13 @@
+source_id,correct,incorrect,adjudication_basis,reliability_heuristic
+S00,4,1,fictional historical reviewer records,0.7142857142857143
+S01,5,2,fictional historical reviewer records,0.6666666666666666
+S02,6,3,fictional historical reviewer records,0.6363636363636364
+S03,7,1,fictional historical reviewer records,0.8
+S04,8,2,fictional historical reviewer records,0.75
+S05,9,3,fictional historical reviewer records,0.7142857142857143
+S06,4,1,fictional historical reviewer records,0.7142857142857143
+S07,5,2,fictional historical reviewer records,0.6666666666666666
+S08,6,3,fictional historical reviewer records,0.6363636363636364
+S09,7,1,fictional historical reviewer records,0.8
+S10,8,2,fictional historical reviewer records,0.75
+S11,9,3,fictional historical reviewer records,0.7142857142857143

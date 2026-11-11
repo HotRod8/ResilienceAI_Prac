@@ -1,0 +1,251 @@
+report_id,event_id,location,timestamp,source_id,provenance,text,incident_label,split,truth_present,observed_present,severity
+R000,E00,Fictional Sector 00,2030-01-01T00:00:00+00:00,S00,E00-origin0,flames and smoke rising at Fictional Sector 00; condition present.,fire,train,True,True,high
+R001,E00,Fictional Sector 00,2030-01-01T00:01:00+00:00,S01,E00-origin1,flames and smoke rising at Fictional Sector 00; condition present.,fire,train,True,True,high
+R002,E00,Fictional Sector 00,2030-01-01T00:02:00+00:00,S02,E00-origin0,flames and smoke rising at Fictional Sector 00; condition present.,fire,train,True,True,high
+R003,E00,Fictional Sector 00,2030-01-01T00:03:00+00:00,S03,E00-origin0,Update: flames and smoke rising at Fictional Sector 00; condition present. Please verify.,fire,train,True,True,high
+R004,E00,Fictional Sector 00,2030-01-01T00:04:00+00:00,S04,E00-origin4,Conflicting observation: flames and smoke rising at Fictional Sector 00; condition absent.,fire,train,True,False,high
+R010,E01,Fictional Sector 01,2030-01-01T01:00:00+00:00,S01,E01-origin0,river overflow inundating homes at Fictional Sector 01; condition absent.,flood,train,False,False,moderate
+R011,E01,Fictional Sector 01,2030-01-01T01:01:00+00:00,S02,E01-origin1,river overflow inundating homes at Fictional Sector 01; condition absent.,flood,train,False,False,moderate
+R012,E01,Fictional Sector 01,2030-01-01T01:02:00+00:00,S03,E01-origin0,river overflow inundating homes at Fictional Sector 01; condition absent.,flood,train,False,False,moderate
+R013,E01,Fictional Sector 01,2030-01-01T01:03:00+00:00,S04,E01-origin0,Update: river overflow inundating homes at Fictional Sector 01; condition absent. Please verify.,flood,train,False,False,moderate
+R014,E01,Fictional Sector 01,2030-01-01T01:04:00+00:00,S05,E01-origin4,Conflicting observation: river overflow inundating homes at Fictional Sector 01; condition present.,flood,train,False,True,moderate
+R020,E02,Fictional Sector 02,2030-01-01T02:00:00+00:00,S02,E02-origin0,injured person needs medical assistance at Fictional Sector 02; condition present.,medical,train,True,True,high
+R021,E02,Fictional Sector 02,2030-01-01T02:01:00+00:00,S03,E02-origin1,injured person needs medical assistance at Fictional Sector 02; condition present.,medical,train,True,True,high
+R022,E02,Fictional Sector 02,2030-01-01T02:02:00+00:00,S04,E02-origin0,injured person needs medical assistance at Fictional Sector 02; condition present.,medical,train,True,True,high
+R023,E02,Fictional Sector 02,2030-01-01T02:03:00+00:00,S05,E02-origin0,Update: injured person needs medical assistance at Fictional Sector 02; condition present. Please verify.,medical,train,True,True,high
+R024,E02,Fictional Sector 02,2030-01-01T02:04:00+00:00,S06,E02-origin4,Conflicting observation: injured person needs medical assistance at Fictional Sector 02; condition absent.,medical,train,True,False,high
+R030,E03,Fictional Sector 03,2030-01-01T03:00:00+00:00,S03,E03-origin0,power outage leaves homes dark at Fictional Sector 03; condition present.,power,train,True,True,moderate
+R031,E03,Fictional Sector 03,2030-01-01T03:01:00+00:00,S04,E03-origin1,power outage leaves homes dark at Fictional Sector 03; condition present.,power,train,True,True,moderate
+R032,E03,Fictional Sector 03,2030-01-01T03:02:00+00:00,S05,E03-origin0,power outage leaves homes dark at Fictional Sector 03; condition present.,power,train,True,True,moderate
+R033,E03,Fictional Sector 03,2030-01-01T03:03:00+00:00,S06,E03-origin0,Update: power outage leaves homes dark at Fictional Sector 03; condition present. Please verify.,power,train,True,True,moderate
+R034,E03,Fictional Sector 03,2030-01-01T03:04:00+00:00,S07,E03-origin4,Conflicting observation: power outage leaves homes dark at Fictional Sector 03; condition absent.,power,train,True,False,moderate
+R040,E04,Fictional Sector 04,2030-01-01T04:00:00+00:00,S04,E04-origin0,road blocked by fallen tree at Fictional Sector 04; condition absent.,road,train,False,False,moderate
+R041,E04,Fictional Sector 04,2030-01-01T04:01:00+00:00,S05,E04-origin1,road blocked by fallen tree at Fictional Sector 04; condition absent.,road,train,False,False,moderate
+R042,E04,Fictional Sector 04,2030-01-01T04:02:00+00:00,S06,E04-origin0,road blocked by fallen tree at Fictional Sector 04; condition absent.,road,train,False,False,moderate
+R043,E04,Fictional Sector 04,2030-01-01T04:03:00+00:00,S07,E04-origin0,Update: road blocked by fallen tree at Fictional Sector 04; condition absent. Please verify.,road,train,False,False,moderate
+R044,E04,Fictional Sector 04,2030-01-01T04:04:00+00:00,S08,E04-origin4,Conflicting observation: road blocked by fallen tree at Fictional Sector 04; condition present.,road,train,False,True,moderate
+R050,E05,Fictional Sector 05,2030-01-01T05:00:00+00:00,S05,E05-origin0,building burning with intense heat at Fictional Sector 05; condition present.,fire,train,True,True,high
+R051,E05,Fictional Sector 05,2030-01-01T05:01:00+00:00,S06,E05-origin1,building burning with intense heat at Fictional Sector 05; condition present.,fire,train,True,True,high
+R052,E05,Fictional Sector 05,2030-01-01T05:02:00+00:00,S07,E05-origin0,building burning with intense heat at Fictional Sector 05; condition present.,fire,train,True,True,high
+R053,E05,Fictional Sector 05,2030-01-01T05:03:00+00:00,S08,E05-origin0,Update: building burning with intense heat at Fictional Sector 05; condition present. Please verify.,fire,train,True,True,high
+R054,E05,Fictional Sector 05,2030-01-01T05:04:00+00:00,S09,E05-origin4,Conflicting observation: building burning with intense heat at Fictional Sector 05; condition absent.,fire,train,True,False,high
+R060,E06,Fictional Sector 06,2030-01-01T06:00:00+00:00,S06,E06-origin0,river overflow inundating homes at Fictional Sector 06; condition present.,flood,train,True,True,moderate
+R061,E06,Fictional Sector 06,2030-01-01T06:01:00+00:00,S07,E06-origin1,river overflow inundating homes at Fictional Sector 06; condition present.,flood,train,True,True,moderate
+R062,E06,Fictional Sector 06,2030-01-01T06:02:00+00:00,S08,E06-origin0,river overflow inundating homes at Fictional Sector 06; condition present.,flood,train,True,True,moderate
+R063,E06,Fictional Sector 06,2030-01-01T06:03:00+00:00,S09,E06-origin0,Update: river overflow inundating homes at Fictional Sector 06; condition present. Please verify.,flood,train,True,True,moderate
+R064,E06,Fictional Sector 06,2030-01-01T06:04:00+00:00,S10,E06-origin4,Conflicting observation: river overflow inundating homes at Fictional Sector 06; condition absent.,flood,train,True,False,moderate
+R070,E07,Fictional Sector 07,2030-01-01T07:00:00+00:00,S07,E07-origin0,patient requires urgent ambulance at Fictional Sector 07; condition present.,medical,train,True,True,high
+R071,E07,Fictional Sector 07,2030-01-01T07:01:00+00:00,S08,E07-origin1,patient requires urgent ambulance at Fictional Sector 07; condition present.,medical,train,True,True,high
+R072,E07,Fictional Sector 07,2030-01-01T07:02:00+00:00,S09,E07-origin0,patient requires urgent ambulance at Fictional Sector 07; condition present.,medical,train,True,True,high
+R073,E07,Fictional Sector 07,2030-01-01T07:03:00+00:00,S10,E07-origin0,Update: patient requires urgent ambulance at Fictional Sector 07; condition present. Please verify.,medical,train,True,True,high
+R074,E07,Fictional Sector 07,2030-01-01T07:04:00+00:00,S11,E07-origin4,Conflicting observation: patient requires urgent ambulance at Fictional Sector 07; condition absent.,medical,train,True,False,high
+R080,E08,Fictional Sector 08,2030-01-01T08:00:00+00:00,S08,E08-origin0,electrical grid service interrupted at Fictional Sector 08; condition absent.,power,train,False,False,moderate
+R081,E08,Fictional Sector 08,2030-01-01T08:01:00+00:00,S09,E08-origin1,electrical grid service interrupted at Fictional Sector 08; condition absent.,power,train,False,False,moderate
+R082,E08,Fictional Sector 08,2030-01-01T08:02:00+00:00,S10,E08-origin0,electrical grid service interrupted at Fictional Sector 08; condition absent.,power,train,False,False,moderate
+R083,E08,Fictional Sector 08,2030-01-01T08:03:00+00:00,S11,E08-origin0,Update: electrical grid service interrupted at Fictional Sector 08; condition absent. Please verify.,power,train,False,False,moderate
+R084,E08,Fictional Sector 08,2030-01-01T08:04:00+00:00,S00,E08-origin4,Conflicting observation: electrical grid service interrupted at Fictional Sector 08; condition present.,power,train,False,True,moderate
+R090,E09,Fictional Sector 09,2030-01-01T09:00:00+00:00,S09,E09-origin0,traffic obstruction prevents passage at Fictional Sector 09; condition absent.,road,train,False,False,moderate
+R091,E09,Fictional Sector 09,2030-01-01T09:01:00+00:00,S10,E09-origin1,traffic obstruction prevents passage at Fictional Sector 09; condition absent.,road,train,False,False,moderate
+R092,E09,Fictional Sector 09,2030-01-01T09:02:00+00:00,S11,E09-origin0,traffic obstruction prevents passage at Fictional Sector 09; condition absent.,road,train,False,False,moderate
+R093,E09,Fictional Sector 09,2030-01-01T09:03:00+00:00,S00,E09-origin0,Update: traffic obstruction prevents passage at Fictional Sector 09; condition absent. Please verify.,road,train,False,False,moderate
+R094,E09,Fictional Sector 09,2030-01-01T09:04:00+00:00,S01,E09-origin4,Conflicting observation: traffic obstruction prevents passage at Fictional Sector 09; condition present.,road,train,False,True,moderate
+R100,E10,Fictional Sector 10,2030-01-01T10:00:00+00:00,S10,E10-origin0,building burning with intense heat at Fictional Sector 10; condition absent.,fire,train,False,False,high
+R101,E10,Fictional Sector 10,2030-01-01T10:01:00+00:00,S11,E10-origin1,building burning with intense heat at Fictional Sector 10; condition absent.,fire,train,False,False,high
+R102,E10,Fictional Sector 10,2030-01-01T10:02:00+00:00,S00,E10-origin0,building burning with intense heat at Fictional Sector 10; condition absent.,fire,train,False,False,high
+R103,E10,Fictional Sector 10,2030-01-01T10:03:00+00:00,S01,E10-origin0,Update: building burning with intense heat at Fictional Sector 10; condition absent. Please verify.,fire,train,False,False,high
+R104,E10,Fictional Sector 10,2030-01-01T10:04:00+00:00,S02,E10-origin4,Conflicting observation: building burning with intense heat at Fictional Sector 10; condition present.,fire,train,False,True,high
+R110,E11,Fictional Sector 11,2030-01-01T11:00:00+00:00,S11,E11-origin0,flood water covering streets at Fictional Sector 11; condition present.,flood,train,True,True,moderate
+R111,E11,Fictional Sector 11,2030-01-01T11:01:00+00:00,S00,E11-origin1,flood water covering streets at Fictional Sector 11; condition present.,flood,train,True,True,moderate
+R112,E11,Fictional Sector 11,2030-01-01T11:02:00+00:00,S01,E11-origin0,flood water covering streets at Fictional Sector 11; condition present.,flood,train,True,True,moderate
+R113,E11,Fictional Sector 11,2030-01-01T11:03:00+00:00,S02,E11-origin0,Update: flood water covering streets at Fictional Sector 11; condition present. Please verify.,flood,train,True,True,moderate
+R114,E11,Fictional Sector 11,2030-01-01T11:04:00+00:00,S03,E11-origin4,Conflicting observation: flood water covering streets at Fictional Sector 11; condition absent.,flood,train,True,False,moderate
+R120,E12,Fictional Sector 12,2030-01-01T12:00:00+00:00,S00,E12-origin0,patient requires urgent ambulance at Fictional Sector 12; condition present.,medical,train,True,True,high
+R121,E12,Fictional Sector 12,2030-01-01T12:01:00+00:00,S01,E12-origin1,patient requires urgent ambulance at Fictional Sector 12; condition present.,medical,train,True,True,high
+R122,E12,Fictional Sector 12,2030-01-01T12:02:00+00:00,S02,E12-origin0,patient requires urgent ambulance at Fictional Sector 12; condition present.,medical,train,True,True,high
+R123,E12,Fictional Sector 12,2030-01-01T12:03:00+00:00,S03,E12-origin0,Update: patient requires urgent ambulance at Fictional Sector 12; condition present. Please verify.,medical,train,True,True,high
+R124,E12,Fictional Sector 12,2030-01-01T12:04:00+00:00,S04,E12-origin4,Conflicting observation: patient requires urgent ambulance at Fictional Sector 12; condition absent.,medical,train,True,False,high
+R130,E13,Fictional Sector 13,2030-01-01T13:00:00+00:00,S01,E13-origin0,power outage leaves homes dark at Fictional Sector 13; condition present.,power,train,True,True,moderate
+R131,E13,Fictional Sector 13,2030-01-01T13:01:00+00:00,S02,E13-origin1,power outage leaves homes dark at Fictional Sector 13; condition present.,power,train,True,True,moderate
+R132,E13,Fictional Sector 13,2030-01-01T13:02:00+00:00,S03,E13-origin0,power outage leaves homes dark at Fictional Sector 13; condition present.,power,train,True,True,moderate
+R133,E13,Fictional Sector 13,2030-01-01T13:03:00+00:00,S04,E13-origin0,Update: power outage leaves homes dark at Fictional Sector 13; condition present. Please verify.,power,train,True,True,moderate
+R134,E13,Fictional Sector 13,2030-01-01T13:04:00+00:00,S05,E13-origin4,Conflicting observation: power outage leaves homes dark at Fictional Sector 13; condition absent.,power,train,True,False,moderate
+R140,E14,Fictional Sector 14,2030-01-01T14:00:00+00:00,S02,E14-origin0,traffic obstruction prevents passage at Fictional Sector 14; condition absent.,road,train,False,False,moderate
+R141,E14,Fictional Sector 14,2030-01-01T14:01:00+00:00,S03,E14-origin1,traffic obstruction prevents passage at Fictional Sector 14; condition absent.,road,train,False,False,moderate
+R142,E14,Fictional Sector 14,2030-01-01T14:02:00+00:00,S04,E14-origin0,traffic obstruction prevents passage at Fictional Sector 14; condition absent.,road,train,False,False,moderate
+R143,E14,Fictional Sector 14,2030-01-01T14:03:00+00:00,S05,E14-origin0,Update: traffic obstruction prevents passage at Fictional Sector 14; condition absent. Please verify.,road,train,False,False,moderate
+R144,E14,Fictional Sector 14,2030-01-01T14:04:00+00:00,S06,E14-origin4,Conflicting observation: traffic obstruction prevents passage at Fictional Sector 14; condition present.,road,train,False,True,moderate
+R150,E15,Fictional Sector 15,2030-01-01T15:00:00+00:00,S03,E15-origin0,flames and smoke rising at Fictional Sector 15; condition absent.,fire,train,False,False,high
+R151,E15,Fictional Sector 15,2030-01-01T15:01:00+00:00,S04,E15-origin1,flames and smoke rising at Fictional Sector 15; condition absent.,fire,train,False,False,high
+R152,E15,Fictional Sector 15,2030-01-01T15:02:00+00:00,S05,E15-origin0,flames and smoke rising at Fictional Sector 15; condition absent.,fire,train,False,False,high
+R153,E15,Fictional Sector 15,2030-01-01T15:03:00+00:00,S06,E15-origin0,Update: flames and smoke rising at Fictional Sector 15; condition absent. Please verify.,fire,train,False,False,high
+R154,E15,Fictional Sector 15,2030-01-01T15:04:00+00:00,S07,E15-origin4,Conflicting observation: flames and smoke rising at Fictional Sector 15; condition present.,fire,train,False,True,high
+R160,E16,Fictional Sector 16,2030-01-01T16:00:00+00:00,S04,E16-origin0,flood water covering streets at Fictional Sector 16; condition present.,flood,train,True,True,moderate
+R161,E16,Fictional Sector 16,2030-01-01T16:01:00+00:00,S05,E16-origin1,flood water covering streets at Fictional Sector 16; condition present.,flood,train,True,True,moderate
+R162,E16,Fictional Sector 16,2030-01-01T16:02:00+00:00,S06,E16-origin0,flood water covering streets at Fictional Sector 16; condition present.,flood,train,True,True,moderate
+R163,E16,Fictional Sector 16,2030-01-01T16:03:00+00:00,S07,E16-origin0,Update: flood water covering streets at Fictional Sector 16; condition present. Please verify.,flood,train,True,True,moderate
+R164,E16,Fictional Sector 16,2030-01-01T16:04:00+00:00,S08,E16-origin4,Conflicting observation: flood water covering streets at Fictional Sector 16; condition absent.,flood,train,True,False,moderate
+R170,E17,Fictional Sector 17,2030-01-01T17:00:00+00:00,S05,E17-origin0,patient requires urgent ambulance at Fictional Sector 17; condition absent.,medical,train,False,False,high
+R171,E17,Fictional Sector 17,2030-01-01T17:01:00+00:00,S06,E17-origin1,patient requires urgent ambulance at Fictional Sector 17; condition absent.,medical,train,False,False,high
+R172,E17,Fictional Sector 17,2030-01-01T17:02:00+00:00,S07,E17-origin0,patient requires urgent ambulance at Fictional Sector 17; condition absent.,medical,train,False,False,high
+R173,E17,Fictional Sector 17,2030-01-01T17:03:00+00:00,S08,E17-origin0,Update: patient requires urgent ambulance at Fictional Sector 17; condition absent. Please verify.,medical,train,False,False,high
+R174,E17,Fictional Sector 17,2030-01-01T17:04:00+00:00,S09,E17-origin4,Conflicting observation: patient requires urgent ambulance at Fictional Sector 17; condition present.,medical,train,False,True,high
+R180,E18,Fictional Sector 18,2030-01-01T18:00:00+00:00,S06,E18-origin0,electrical grid service interrupted at Fictional Sector 18; condition present.,power,train,True,True,moderate
+R181,E18,Fictional Sector 18,2030-01-01T18:01:00+00:00,S07,E18-origin1,electrical grid service interrupted at Fictional Sector 18; condition present.,power,train,True,True,moderate
+R182,E18,Fictional Sector 18,2030-01-01T18:02:00+00:00,S08,E18-origin0,electrical grid service interrupted at Fictional Sector 18; condition present.,power,train,True,True,moderate
+R183,E18,Fictional Sector 18,2030-01-01T18:03:00+00:00,S09,E18-origin0,Update: electrical grid service interrupted at Fictional Sector 18; condition present. Please verify.,power,train,True,True,moderate
+R184,E18,Fictional Sector 18,2030-01-01T18:04:00+00:00,S10,E18-origin4,Conflicting observation: electrical grid service interrupted at Fictional Sector 18; condition absent.,power,train,True,False,moderate
+R190,E19,Fictional Sector 19,2030-01-01T19:00:00+00:00,S07,E19-origin0,road blocked by fallen tree at Fictional Sector 19; condition present.,road,train,True,True,moderate
+R191,E19,Fictional Sector 19,2030-01-01T19:01:00+00:00,S08,E19-origin1,road blocked by fallen tree at Fictional Sector 19; condition present.,road,train,True,True,moderate
+R192,E19,Fictional Sector 19,2030-01-01T19:02:00+00:00,S09,E19-origin0,road blocked by fallen tree at Fictional Sector 19; condition present.,road,train,True,True,moderate
+R193,E19,Fictional Sector 19,2030-01-01T19:03:00+00:00,S10,E19-origin0,Update: road blocked by fallen tree at Fictional Sector 19; condition present. Please verify.,road,train,True,True,moderate
+R194,E19,Fictional Sector 19,2030-01-01T19:04:00+00:00,S11,E19-origin4,Conflicting observation: road blocked by fallen tree at Fictional Sector 19; condition absent.,road,train,True,False,moderate
+R200,E20,Fictional Sector 20,2030-01-01T20:00:00+00:00,S08,E20-origin0,flames and smoke rising at Fictional Sector 20; condition present.,fire,train,True,True,high
+R201,E20,Fictional Sector 20,2030-01-01T20:01:00+00:00,S09,E20-origin1,flames and smoke rising at Fictional Sector 20; condition present.,fire,train,True,True,high
+R202,E20,Fictional Sector 20,2030-01-01T20:02:00+00:00,S10,E20-origin0,flames and smoke rising at Fictional Sector 20; condition present.,fire,train,True,True,high
+R203,E20,Fictional Sector 20,2030-01-01T20:03:00+00:00,S11,E20-origin0,Update: flames and smoke rising at Fictional Sector 20; condition present. Please verify.,fire,train,True,True,high
+R204,E20,Fictional Sector 20,2030-01-01T20:04:00+00:00,S00,E20-origin4,Conflicting observation: flames and smoke rising at Fictional Sector 20; condition absent.,fire,train,True,False,high
+R210,E21,Fictional Sector 21,2030-01-01T21:00:00+00:00,S09,E21-origin0,river overflow inundating homes at Fictional Sector 21; condition absent.,flood,train,False,False,moderate
+R211,E21,Fictional Sector 21,2030-01-01T21:01:00+00:00,S10,E21-origin1,river overflow inundating homes at Fictional Sector 21; condition absent.,flood,train,False,False,moderate
+R212,E21,Fictional Sector 21,2030-01-01T21:02:00+00:00,S11,E21-origin0,river overflow inundating homes at Fictional Sector 21; condition absent.,flood,train,False,False,moderate
+R213,E21,Fictional Sector 21,2030-01-01T21:03:00+00:00,S00,E21-origin0,Update: river overflow inundating homes at Fictional Sector 21; condition absent. Please verify.,flood,train,False,False,moderate
+R214,E21,Fictional Sector 21,2030-01-01T21:04:00+00:00,S01,E21-origin4,Conflicting observation: river overflow inundating homes at Fictional Sector 21; condition present.,flood,train,False,True,moderate
+R220,E22,Fictional Sector 22,2030-01-01T22:00:00+00:00,S10,E22-origin0,injured person needs medical assistance at Fictional Sector 22; condition present.,medical,train,True,True,high
+R221,E22,Fictional Sector 22,2030-01-01T22:01:00+00:00,S11,E22-origin1,injured person needs medical assistance at Fictional Sector 22; condition present.,medical,train,True,True,high
+R222,E22,Fictional Sector 22,2030-01-01T22:02:00+00:00,S00,E22-origin0,injured person needs medical assistance at Fictional Sector 22; condition present.,medical,train,True,True,high
+R223,E22,Fictional Sector 22,2030-01-01T22:03:00+00:00,S01,E22-origin0,Update: injured person needs medical assistance at Fictional Sector 22; condition present. Please verify.,medical,train,True,True,high
+R224,E22,Fictional Sector 22,2030-01-01T22:04:00+00:00,S02,E22-origin4,Conflicting observation: injured person needs medical assistance at Fictional Sector 22; condition absent.,medical,train,True,False,high
+R230,E23,Fictional Sector 23,2030-01-01T23:00:00+00:00,S11,E23-origin0,power outage leaves homes dark at Fictional Sector 23; condition present.,power,train,True,True,moderate
+R231,E23,Fictional Sector 23,2030-01-01T23:01:00+00:00,S00,E23-origin1,power outage leaves homes dark at Fictional Sector 23; condition present.,power,train,True,True,moderate
+R232,E23,Fictional Sector 23,2030-01-01T23:02:00+00:00,S01,E23-origin0,power outage leaves homes dark at Fictional Sector 23; condition present.,power,train,True,True,moderate
+R233,E23,Fictional Sector 23,2030-01-01T23:03:00+00:00,S02,E23-origin0,Update: power outage leaves homes dark at Fictional Sector 23; condition present. Please verify.,power,train,True,True,moderate
+R234,E23,Fictional Sector 23,2030-01-01T23:04:00+00:00,S03,E23-origin4,Conflicting observation: power outage leaves homes dark at Fictional Sector 23; condition absent.,power,train,True,False,moderate
+R240,E24,Fictional Sector 24,2030-01-02T00:00:00+00:00,S00,E24-origin0,traffic obstruction prevents passage at Fictional Sector 24; condition present.,road,train,True,True,moderate
+R241,E24,Fictional Sector 24,2030-01-02T00:01:00+00:00,S01,E24-origin1,traffic obstruction prevents passage at Fictional Sector 24; condition present.,road,train,True,True,moderate
+R242,E24,Fictional Sector 24,2030-01-02T00:02:00+00:00,S02,E24-origin0,traffic obstruction prevents passage at Fictional Sector 24; condition present.,road,train,True,True,moderate
+R243,E24,Fictional Sector 24,2030-01-02T00:03:00+00:00,S03,E24-origin0,Update: traffic obstruction prevents passage at Fictional Sector 24; condition present. Please verify.,road,train,True,True,moderate
+R244,E24,Fictional Sector 24,2030-01-02T00:04:00+00:00,S04,E24-origin4,Conflicting observation: traffic obstruction prevents passage at Fictional Sector 24; condition absent.,road,train,True,False,moderate
+R250,E25,Fictional Sector 25,2030-01-02T01:00:00+00:00,S01,E25-origin0,building burning with intense heat at Fictional Sector 25; condition absent.,fire,train,False,False,high
+R251,E25,Fictional Sector 25,2030-01-02T01:01:00+00:00,S02,E25-origin1,building burning with intense heat at Fictional Sector 25; condition absent.,fire,train,False,False,high
+R252,E25,Fictional Sector 25,2030-01-02T01:02:00+00:00,S03,E25-origin0,building burning with intense heat at Fictional Sector 25; condition absent.,fire,train,False,False,high
+R253,E25,Fictional Sector 25,2030-01-02T01:03:00+00:00,S04,E25-origin0,Update: building burning with intense heat at Fictional Sector 25; condition absent. Please verify.,fire,train,False,False,high
+R254,E25,Fictional Sector 25,2030-01-02T01:04:00+00:00,S05,E25-origin4,Conflicting observation: building burning with intense heat at Fictional Sector 25; condition present.,fire,train,False,True,high
+R260,E26,Fictional Sector 26,2030-01-02T02:00:00+00:00,S02,E26-origin0,flood water covering streets at Fictional Sector 26; condition absent.,flood,train,False,False,moderate
+R261,E26,Fictional Sector 26,2030-01-02T02:01:00+00:00,S03,E26-origin1,flood water covering streets at Fictional Sector 26; condition absent.,flood,train,False,False,moderate
+R262,E26,Fictional Sector 26,2030-01-02T02:02:00+00:00,S04,E26-origin0,flood water covering streets at Fictional Sector 26; condition absent.,flood,train,False,False,moderate
+R263,E26,Fictional Sector 26,2030-01-02T02:03:00+00:00,S05,E26-origin0,Update: flood water covering streets at Fictional Sector 26; condition absent. Please verify.,flood,train,False,False,moderate
+R264,E26,Fictional Sector 26,2030-01-02T02:04:00+00:00,S06,E26-origin4,Conflicting observation: flood water covering streets at Fictional Sector 26; condition present.,flood,train,False,True,moderate
+R270,E27,Fictional Sector 27,2030-01-02T03:00:00+00:00,S03,E27-origin0,injured person needs medical assistance at Fictional Sector 27; condition absent.,medical,train,False,False,high
+R271,E27,Fictional Sector 27,2030-01-02T03:01:00+00:00,S04,E27-origin1,injured person needs medical assistance at Fictional Sector 27; condition absent.,medical,train,False,False,high
+R272,E27,Fictional Sector 27,2030-01-02T03:02:00+00:00,S05,E27-origin0,injured person needs medical assistance at Fictional Sector 27; condition absent.,medical,train,False,False,high
+R273,E27,Fictional Sector 27,2030-01-02T03:03:00+00:00,S06,E27-origin0,Update: injured person needs medical assistance at Fictional Sector 27; condition absent. Please verify.,medical,train,False,False,high
+R274,E27,Fictional Sector 27,2030-01-02T03:04:00+00:00,S07,E27-origin4,Conflicting observation: injured person needs medical assistance at Fictional Sector 27; condition present.,medical,train,False,True,high
+R280,E28,Fictional Sector 28,2030-01-02T04:00:00+00:00,S04,E28-origin0,electrical grid service interrupted at Fictional Sector 28; condition absent.,power,train,False,False,moderate
+R281,E28,Fictional Sector 28,2030-01-02T04:01:00+00:00,S05,E28-origin1,electrical grid service interrupted at Fictional Sector 28; condition absent.,power,train,False,False,moderate
+R282,E28,Fictional Sector 28,2030-01-02T04:02:00+00:00,S06,E28-origin0,electrical grid service interrupted at Fictional Sector 28; condition absent.,power,train,False,False,moderate
+R283,E28,Fictional Sector 28,2030-01-02T04:03:00+00:00,S07,E28-origin0,Update: electrical grid service interrupted at Fictional Sector 28; condition absent. Please verify.,power,train,False,False,moderate
+R284,E28,Fictional Sector 28,2030-01-02T04:04:00+00:00,S08,E28-origin4,Conflicting observation: electrical grid service interrupted at Fictional Sector 28; condition present.,power,train,False,True,moderate
+R290,E29,Fictional Sector 29,2030-01-02T05:00:00+00:00,S05,E29-origin0,traffic obstruction prevents passage at Fictional Sector 29; condition present.,road,train,True,True,moderate
+R291,E29,Fictional Sector 29,2030-01-02T05:01:00+00:00,S06,E29-origin1,traffic obstruction prevents passage at Fictional Sector 29; condition present.,road,train,True,True,moderate
+R292,E29,Fictional Sector 29,2030-01-02T05:02:00+00:00,S07,E29-origin0,traffic obstruction prevents passage at Fictional Sector 29; condition present.,road,train,True,True,moderate
+R293,E29,Fictional Sector 29,2030-01-02T05:03:00+00:00,S08,E29-origin0,Update: traffic obstruction prevents passage at Fictional Sector 29; condition present. Please verify.,road,train,True,True,moderate
+R294,E29,Fictional Sector 29,2030-01-02T05:04:00+00:00,S09,E29-origin4,Conflicting observation: traffic obstruction prevents passage at Fictional Sector 29; condition absent.,road,train,True,False,moderate
+R300,E30,Fictional Sector 30,2030-01-02T06:00:00+00:00,S06,E30-origin0,active combustion with thick fumes at Fictional Sector 30; condition present.,fire,test,True,True,high
+R301,E30,Fictional Sector 30,2030-01-02T06:01:00+00:00,S07,E30-origin1,active combustion with thick fumes at Fictional Sector 30; condition present.,fire,test,True,True,high
+R302,E30,Fictional Sector 30,2030-01-02T06:02:00+00:00,S08,E30-origin0,active combustion with thick fumes at Fictional Sector 30; condition present.,fire,test,True,True,high
+R303,E30,Fictional Sector 30,2030-01-02T06:03:00+00:00,S09,E30-origin0,Update: active combustion with thick fumes at Fictional Sector 30; condition present. Please verify.,fire,test,True,True,high
+R304,E30,Fictional Sector 30,2030-01-02T06:04:00+00:00,S10,E30-origin4,Conflicting observation: active combustion with thick fumes at Fictional Sector 30; condition absent.,fire,test,True,False,high
+R310,E31,Fictional Sector 31,2030-01-02T07:00:00+00:00,S07,E31-origin0,rising water submerging roads at Fictional Sector 31; condition present.,flood,test,True,True,moderate
+R311,E31,Fictional Sector 31,2030-01-02T07:01:00+00:00,S08,E31-origin1,rising water submerging roads at Fictional Sector 31; condition present.,flood,test,True,True,moderate
+R312,E31,Fictional Sector 31,2030-01-02T07:02:00+00:00,S09,E31-origin0,rising water submerging roads at Fictional Sector 31; condition present.,flood,test,True,True,moderate
+R313,E31,Fictional Sector 31,2030-01-02T07:03:00+00:00,S10,E31-origin0,Update: rising water submerging roads at Fictional Sector 31; condition present. Please verify.,flood,test,True,True,moderate
+R314,E31,Fictional Sector 31,2030-01-02T07:04:00+00:00,S11,E31-origin4,Conflicting observation: rising water submerging roads at Fictional Sector 31; condition absent.,flood,test,True,False,moderate
+R320,E32,Fictional Sector 32,2030-01-02T08:00:00+00:00,S08,E32-origin0,unconscious resident needs paramedics at Fictional Sector 32; condition absent.,medical,test,False,False,high
+R321,E32,Fictional Sector 32,2030-01-02T08:01:00+00:00,S09,E32-origin1,unconscious resident needs paramedics at Fictional Sector 32; condition absent.,medical,test,False,False,high
+R322,E32,Fictional Sector 32,2030-01-02T08:02:00+00:00,S10,E32-origin0,unconscious resident needs paramedics at Fictional Sector 32; condition absent.,medical,test,False,False,high
+R323,E32,Fictional Sector 32,2030-01-02T08:03:00+00:00,S11,E32-origin0,Update: unconscious resident needs paramedics at Fictional Sector 32; condition absent. Please verify.,medical,test,False,False,high
+R324,E32,Fictional Sector 32,2030-01-02T08:04:00+00:00,S00,E32-origin4,Conflicting observation: unconscious resident needs paramedics at Fictional Sector 32; condition present.,medical,test,False,True,high
+R330,E33,Fictional Sector 33,2030-01-02T09:00:00+00:00,S09,E33-origin0,blackout affecting local buildings at Fictional Sector 33; condition absent.,power,test,False,False,moderate
+R331,E33,Fictional Sector 33,2030-01-02T09:01:00+00:00,S10,E33-origin1,blackout affecting local buildings at Fictional Sector 33; condition absent.,power,test,False,False,moderate
+R332,E33,Fictional Sector 33,2030-01-02T09:02:00+00:00,S11,E33-origin0,blackout affecting local buildings at Fictional Sector 33; condition absent.,power,test,False,False,moderate
+R333,E33,Fictional Sector 33,2030-01-02T09:03:00+00:00,S00,E33-origin0,Update: blackout affecting local buildings at Fictional Sector 33; condition absent. Please verify.,power,test,False,False,moderate
+R334,E33,Fictional Sector 33,2030-01-02T09:04:00+00:00,S01,E33-origin4,Conflicting observation: blackout affecting local buildings at Fictional Sector 33; condition present.,power,test,False,True,moderate
+R340,E34,Fictional Sector 34,2030-01-02T10:00:00+00:00,S10,E34-origin0,debris closes vehicle route at Fictional Sector 34; condition absent.,road,test,False,False,moderate
+R341,E34,Fictional Sector 34,2030-01-02T10:01:00+00:00,S11,E34-origin1,debris closes vehicle route at Fictional Sector 34; condition absent.,road,test,False,False,moderate
+R342,E34,Fictional Sector 34,2030-01-02T10:02:00+00:00,S00,E34-origin0,debris closes vehicle route at Fictional Sector 34; condition absent.,road,test,False,False,moderate
+R343,E34,Fictional Sector 34,2030-01-02T10:03:00+00:00,S01,E34-origin0,Update: debris closes vehicle route at Fictional Sector 34; condition absent. Please verify.,road,test,False,False,moderate
+R344,E34,Fictional Sector 34,2030-01-02T10:04:00+00:00,S02,E34-origin4,Conflicting observation: debris closes vehicle route at Fictional Sector 34; condition present.,road,test,False,True,moderate
+R350,E35,Fictional Sector 35,2030-01-02T11:00:00+00:00,S11,E35-origin0,active combustion with thick fumes at Fictional Sector 35; condition absent.,fire,test,False,False,high
+R351,E35,Fictional Sector 35,2030-01-02T11:01:00+00:00,S00,E35-origin1,active combustion with thick fumes at Fictional Sector 35; condition absent.,fire,test,False,False,high
+R352,E35,Fictional Sector 35,2030-01-02T11:02:00+00:00,S01,E35-origin0,active combustion with thick fumes at Fictional Sector 35; condition absent.,fire,test,False,False,high
+R353,E35,Fictional Sector 35,2030-01-02T11:03:00+00:00,S02,E35-origin0,Update: active combustion with thick fumes at Fictional Sector 35; condition absent. Please verify.,fire,test,False,False,high
+R354,E35,Fictional Sector 35,2030-01-02T11:04:00+00:00,S03,E35-origin4,Conflicting observation: active combustion with thick fumes at Fictional Sector 35; condition present.,fire,test,False,True,high
+R360,E36,Fictional Sector 36,2030-01-02T12:00:00+00:00,S00,E36-origin0,rising water submerging roads at Fictional Sector 36; condition absent.,flood,test,False,False,moderate
+R361,E36,Fictional Sector 36,2030-01-02T12:01:00+00:00,S01,E36-origin1,rising water submerging roads at Fictional Sector 36; condition absent.,flood,test,False,False,moderate
+R362,E36,Fictional Sector 36,2030-01-02T12:02:00+00:00,S02,E36-origin0,rising water submerging roads at Fictional Sector 36; condition absent.,flood,test,False,False,moderate
+R363,E36,Fictional Sector 36,2030-01-02T12:03:00+00:00,S03,E36-origin0,Update: rising water submerging roads at Fictional Sector 36; condition absent. Please verify.,flood,test,False,False,moderate
+R364,E36,Fictional Sector 36,2030-01-02T12:04:00+00:00,S04,E36-origin4,Conflicting observation: rising water submerging roads at Fictional Sector 36; condition present.,flood,test,False,True,moderate
+R370,E37,Fictional Sector 37,2030-01-02T13:00:00+00:00,S01,E37-origin0,severe injury awaiting emergency treatment at Fictional Sector 37; condition absent.,medical,test,False,False,high
+R371,E37,Fictional Sector 37,2030-01-02T13:01:00+00:00,S02,E37-origin1,severe injury awaiting emergency treatment at Fictional Sector 37; condition absent.,medical,test,False,False,high
+R372,E37,Fictional Sector 37,2030-01-02T13:02:00+00:00,S03,E37-origin0,severe injury awaiting emergency treatment at Fictional Sector 37; condition absent.,medical,test,False,False,high
+R373,E37,Fictional Sector 37,2030-01-02T13:03:00+00:00,S04,E37-origin0,Update: severe injury awaiting emergency treatment at Fictional Sector 37; condition absent. Please verify.,medical,test,False,False,high
+R374,E37,Fictional Sector 37,2030-01-02T13:04:00+00:00,S05,E37-origin4,Conflicting observation: severe injury awaiting emergency treatment at Fictional Sector 37; condition present.,medical,test,False,True,high
+R380,E38,Fictional Sector 38,2030-01-02T14:00:00+00:00,S02,E38-origin0,electricity unavailable across neighborhood at Fictional Sector 38; condition absent.,power,test,False,False,moderate
+R381,E38,Fictional Sector 38,2030-01-02T14:01:00+00:00,S03,E38-origin1,electricity unavailable across neighborhood at Fictional Sector 38; condition absent.,power,test,False,False,moderate
+R382,E38,Fictional Sector 38,2030-01-02T14:02:00+00:00,S04,E38-origin0,electricity unavailable across neighborhood at Fictional Sector 38; condition absent.,power,test,False,False,moderate
+R383,E38,Fictional Sector 38,2030-01-02T14:03:00+00:00,S05,E38-origin0,Update: electricity unavailable across neighborhood at Fictional Sector 38; condition absent. Please verify.,power,test,False,False,moderate
+R384,E38,Fictional Sector 38,2030-01-02T14:04:00+00:00,S06,E38-origin4,Conflicting observation: electricity unavailable across neighborhood at Fictional Sector 38; condition present.,power,test,False,True,moderate
+R390,E39,Fictional Sector 39,2030-01-02T15:00:00+00:00,S03,E39-origin0,street impassable due to barrier at Fictional Sector 39; condition present.,road,test,True,True,moderate
+R391,E39,Fictional Sector 39,2030-01-02T15:01:00+00:00,S04,E39-origin1,street impassable due to barrier at Fictional Sector 39; condition present.,road,test,True,True,moderate
+R392,E39,Fictional Sector 39,2030-01-02T15:02:00+00:00,S05,E39-origin0,street impassable due to barrier at Fictional Sector 39; condition present.,road,test,True,True,moderate
+R393,E39,Fictional Sector 39,2030-01-02T15:03:00+00:00,S06,E39-origin0,Update: street impassable due to barrier at Fictional Sector 39; condition present. Please verify.,road,test,True,True,moderate
+R394,E39,Fictional Sector 39,2030-01-02T15:04:00+00:00,S07,E39-origin4,Conflicting observation: street impassable due to barrier at Fictional Sector 39; condition absent.,road,test,True,False,moderate
+R400,E40,Fictional Sector 40,2030-01-02T16:00:00+00:00,S04,E40-origin0,active combustion with thick fumes at Fictional Sector 40; condition absent.,fire,test,False,False,high
+R401,E40,Fictional Sector 40,2030-01-02T16:01:00+00:00,S05,E40-origin1,active combustion with thick fumes at Fictional Sector 40; condition absent.,fire,test,False,False,high
+R402,E40,Fictional Sector 40,2030-01-02T16:02:00+00:00,S06,E40-origin0,active combustion with thick fumes at Fictional Sector 40; condition absent.,fire,test,False,False,high
+R403,E40,Fictional Sector 40,2030-01-02T16:03:00+00:00,S07,E40-origin0,Update: active combustion with thick fumes at Fictional Sector 40; condition absent. Please verify.,fire,test,False,False,high
+R404,E40,Fictional Sector 40,2030-01-02T16:04:00+00:00,S08,E40-origin4,Conflicting observation: active combustion with thick fumes at Fictional Sector 40; condition present.,fire,test,False,True,high
+R410,E41,Fictional Sector 41,2030-01-02T17:00:00+00:00,S05,E41-origin0,rising water submerging roads at Fictional Sector 41; condition present.,flood,test,True,True,moderate
+R411,E41,Fictional Sector 41,2030-01-02T17:01:00+00:00,S06,E41-origin1,rising water submerging roads at Fictional Sector 41; condition present.,flood,test,True,True,moderate
+R412,E41,Fictional Sector 41,2030-01-02T17:02:00+00:00,S07,E41-origin0,rising water submerging roads at Fictional Sector 41; condition present.,flood,test,True,True,moderate
+R413,E41,Fictional Sector 41,2030-01-02T17:03:00+00:00,S08,E41-origin0,Update: rising water submerging roads at Fictional Sector 41; condition present. Please verify.,flood,test,True,True,moderate
+R414,E41,Fictional Sector 41,2030-01-02T17:04:00+00:00,S09,E41-origin4,Conflicting observation: rising water submerging roads at Fictional Sector 41; condition absent.,flood,test,True,False,moderate
+R420,E42,Fictional Sector 42,2030-01-02T18:00:00+00:00,S06,E42-origin0,severe injury awaiting emergency treatment at Fictional Sector 42; condition present.,medical,test,True,True,high
+R421,E42,Fictional Sector 42,2030-01-02T18:01:00+00:00,S07,E42-origin1,severe injury awaiting emergency treatment at Fictional Sector 42; condition present.,medical,test,True,True,high
+R422,E42,Fictional Sector 42,2030-01-02T18:02:00+00:00,S08,E42-origin0,severe injury awaiting emergency treatment at Fictional Sector 42; condition present.,medical,test,True,True,high
+R423,E42,Fictional Sector 42,2030-01-02T18:03:00+00:00,S09,E42-origin0,Update: severe injury awaiting emergency treatment at Fictional Sector 42; condition present. Please verify.,medical,test,True,True,high
+R424,E42,Fictional Sector 42,2030-01-02T18:04:00+00:00,S10,E42-origin4,Conflicting observation: severe injury awaiting emergency treatment at Fictional Sector 42; condition absent.,medical,test,True,False,high
+R430,E43,Fictional Sector 43,2030-01-02T19:00:00+00:00,S07,E43-origin0,electricity unavailable across neighborhood at Fictional Sector 43; condition absent.,power,test,False,False,moderate
+R431,E43,Fictional Sector 43,2030-01-02T19:01:00+00:00,S08,E43-origin1,electricity unavailable across neighborhood at Fictional Sector 43; condition absent.,power,test,False,False,moderate
+R432,E43,Fictional Sector 43,2030-01-02T19:02:00+00:00,S09,E43-origin0,electricity unavailable across neighborhood at Fictional Sector 43; condition absent.,power,test,False,False,moderate
+R433,E43,Fictional Sector 43,2030-01-02T19:03:00+00:00,S10,E43-origin0,Update: electricity unavailable across neighborhood at Fictional Sector 43; condition absent. Please verify.,power,test,False,False,moderate
+R434,E43,Fictional Sector 43,2030-01-02T19:04:00+00:00,S11,E43-origin4,Conflicting observation: electricity unavailable across neighborhood at Fictional Sector 43; condition present.,power,test,False,True,moderate
+R440,E44,Fictional Sector 44,2030-01-02T20:00:00+00:00,S08,E44-origin0,street impassable due to barrier at Fictional Sector 44; condition present.,road,test,True,True,moderate
+R441,E44,Fictional Sector 44,2030-01-02T20:01:00+00:00,S09,E44-origin1,street impassable due to barrier at Fictional Sector 44; condition present.,road,test,True,True,moderate
+R442,E44,Fictional Sector 44,2030-01-02T20:02:00+00:00,S10,E44-origin0,street impassable due to barrier at Fictional Sector 44; condition present.,road,test,True,True,moderate
+R443,E44,Fictional Sector 44,2030-01-02T20:03:00+00:00,S11,E44-origin0,Update: street impassable due to barrier at Fictional Sector 44; condition present. Please verify.,road,test,True,True,moderate
+R444,E44,Fictional Sector 44,2030-01-02T20:04:00+00:00,S00,E44-origin4,Conflicting observation: street impassable due to barrier at Fictional Sector 44; condition absent.,road,test,True,False,moderate
+R450,E45,Fictional Sector 45,2030-01-02T21:00:00+00:00,S09,E45-origin0,visible blaze consuming structure at Fictional Sector 45; condition present.,fire,test,True,True,high
+R451,E45,Fictional Sector 45,2030-01-02T21:01:00+00:00,S10,E45-origin1,visible blaze consuming structure at Fictional Sector 45; condition present.,fire,test,True,True,high
+R452,E45,Fictional Sector 45,2030-01-02T21:02:00+00:00,S11,E45-origin0,visible blaze consuming structure at Fictional Sector 45; condition present.,fire,test,True,True,high
+R453,E45,Fictional Sector 45,2030-01-02T21:03:00+00:00,S00,E45-origin0,Update: visible blaze consuming structure at Fictional Sector 45; condition present. Please verify.,fire,test,True,True,high
+R454,E45,Fictional Sector 45,2030-01-02T21:04:00+00:00,S01,E45-origin4,Conflicting observation: visible blaze consuming structure at Fictional Sector 45; condition absent.,fire,test,True,False,high
+R460,E46,Fictional Sector 46,2030-01-02T22:00:00+00:00,S10,E46-origin0,inundation after heavy rainfall at Fictional Sector 46; condition absent.,flood,test,False,False,moderate
+R461,E46,Fictional Sector 46,2030-01-02T22:01:00+00:00,S11,E46-origin1,inundation after heavy rainfall at Fictional Sector 46; condition absent.,flood,test,False,False,moderate
+R462,E46,Fictional Sector 46,2030-01-02T22:02:00+00:00,S00,E46-origin0,inundation after heavy rainfall at Fictional Sector 46; condition absent.,flood,test,False,False,moderate
+R463,E46,Fictional Sector 46,2030-01-02T22:03:00+00:00,S01,E46-origin0,Update: inundation after heavy rainfall at Fictional Sector 46; condition absent. Please verify.,flood,test,False,False,moderate
+R464,E46,Fictional Sector 46,2030-01-02T22:04:00+00:00,S02,E46-origin4,Conflicting observation: inundation after heavy rainfall at Fictional Sector 46; condition present.,flood,test,False,True,moderate
+R470,E47,Fictional Sector 47,2030-01-02T23:00:00+00:00,S11,E47-origin0,severe injury awaiting emergency treatment at Fictional Sector 47; condition absent.,medical,test,False,False,high
+R471,E47,Fictional Sector 47,2030-01-02T23:01:00+00:00,S00,E47-origin1,severe injury awaiting emergency treatment at Fictional Sector 47; condition absent.,medical,test,False,False,high
+R472,E47,Fictional Sector 47,2030-01-02T23:02:00+00:00,S01,E47-origin0,severe injury awaiting emergency treatment at Fictional Sector 47; condition absent.,medical,test,False,False,high
+R473,E47,Fictional Sector 47,2030-01-02T23:03:00+00:00,S02,E47-origin0,Update: severe injury awaiting emergency treatment at Fictional Sector 47; condition absent. Please verify.,medical,test,False,False,high
+R474,E47,Fictional Sector 47,2030-01-02T23:04:00+00:00,S03,E47-origin4,Conflicting observation: severe injury awaiting emergency treatment at Fictional Sector 47; condition present.,medical,test,False,True,high
+R480,E48,Fictional Sector 48,2030-01-03T00:00:00+00:00,S00,E48-origin0,electricity unavailable across neighborhood at Fictional Sector 48; condition present.,power,test,True,True,moderate
+R481,E48,Fictional Sector 48,2030-01-03T00:01:00+00:00,S01,E48-origin1,electricity unavailable across neighborhood at Fictional Sector 48; condition present.,power,test,True,True,moderate
+R482,E48,Fictional Sector 48,2030-01-03T00:02:00+00:00,S02,E48-origin0,electricity unavailable across neighborhood at Fictional Sector 48; condition present.,power,test,True,True,moderate
+R483,E48,Fictional Sector 48,2030-01-03T00:03:00+00:00,S03,E48-origin0,Update: electricity unavailable across neighborhood at Fictional Sector 48; condition present. Please verify.,power,test,True,True,moderate
+R484,E48,Fictional Sector 48,2030-01-03T00:04:00+00:00,S04,E48-origin4,Conflicting observation: electricity unavailable across neighborhood at Fictional Sector 48; condition absent.,power,test,True,False,moderate
+R490,E49,Fictional Sector 49,2030-01-03T01:00:00+00:00,S01,E49-origin0,street impassable due to barrier at Fictional Sector 49; condition absent.,road,test,False,False,moderate
+R491,E49,Fictional Sector 49,2030-01-03T01:01:00+00:00,S02,E49-origin1,street impassable due to barrier at Fictional Sector 49; condition absent.,road,test,False,False,moderate
+R492,E49,Fictional Sector 49,2030-01-03T01:02:00+00:00,S03,E49-origin0,street impassable due to barrier at Fictional Sector 49; condition absent.,road,test,False,False,moderate
+R493,E49,Fictional Sector 49,2030-01-03T01:03:00+00:00,S04,E49-origin0,Update: street impassable due to barrier at Fictional Sector 49; condition absent. Please verify.,road,test,False,False,moderate
+R494,E49,Fictional Sector 49,2030-01-03T01:04:00+00:00,S05,E49-origin4,Conflicting observation: street impassable due to barrier at Fictional Sector 49; condition present.,road,test,False,True,moderate

@@ -1,0 +1,18 @@
+test,result
+Exactly 250 synthetic reports,PASS
+No event leakage,PASS
+Blank input abstains,PASS
+Unseen vocabulary abstains,PASS
+All injected contradictions detected,PASS
+All claims with opposing evidence disputed,PASS
+100 replays cannot inflate confidence,PASS
+Replay groups unchanged,PASS
+Order invariance,PASS
+Different locations isolated,PASS
+Stale reports isolated,PASS
+Unknown source neutral prior,PASS
+Missing observation review,PASS
+Truth labels never affect ledger,PASS
+Empty pair detector,PASS
+Independent agreement path,PASS
+Confidence bounded,PASS
